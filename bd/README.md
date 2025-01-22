@@ -34,7 +34,7 @@
 6. Crear un nuevo usuario para la conexión del backend y otorgarle privilegios:
    ```
    CREATE USER 'conexion'@'localhost' IDENTIFIED BY 'Wk2!rT8s@6w';
-   GRANT ALL PRIVILEGES ON bd_garcia.* TO 'conexion'@'localhost';
+   GRANT ALL PRIVILEGES ON bd_jarquin.* TO 'conexion'@'localhost';
    FLUSH PRIVILEGES;
    ```
 
