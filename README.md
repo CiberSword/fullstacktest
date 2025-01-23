@@ -15,7 +15,7 @@ Para la ejecución del proyecto se requiere que el sistema cuente con:
 
 1. Ubicarse en la carpeta raiz del proyecto
     ```sh
-    \backend\
+    cd backend
     ```
 2. Ejecutar el comando
     ```sh
