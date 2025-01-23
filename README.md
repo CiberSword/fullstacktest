@@ -8,7 +8,7 @@ contraseña 'Wk2!rT8s@6w' y los permisos asignados.
 
 Para la ejecución del proyecto se requiere que el sistema cuente con:
 
-- Java SDK (Al menos la versión 17).
+- Java JDK (Al menos la versión 17).
 - Maven (debe estar configurado en las variables de entorno).
 
 #### Pasos a seguir:
