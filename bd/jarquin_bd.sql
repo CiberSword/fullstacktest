@@ -10,3 +10,6 @@ CREATE TABLE IF NOT EXISTS person (
     puesto VARCHAR(255),
     sueldo DECIMAL(10, 2)
 );
+
+CREATE USER 'conexion'@'localhost' IDENTIFIED BY 'CS_TEST123';
+GRANT ALL PRIVILEGES ON bd_jarquin.* TO 'conexion'@'localhost';
