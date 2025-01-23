@@ -18,6 +18,14 @@ public class PersonController {
         this.personService = personService;
     }
 
+    @GetMapping("/person/{id}")
+    public ResponseEntity<Object> getById(@PathVariable(value = "id") Integer id) {
+        if (personService.find(id).isPresent()) {
+            return ResponseHandler.generateResponse(HttpStatus.OK,personService.find(id));
+        }
+        return ResponseHandler.generateResponse(HttpStatus.NOT_FOUND,null);
+    }
+
     @GetMapping(value = "/person")
     @ResponseBody
     public ResponseEntity<Object> getAll() {
