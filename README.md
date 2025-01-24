@@ -2,7 +2,7 @@
 
 Hola! Este archivo contiene la serie de pasos a seguir para realizar el despliegue del servicio CRUD.
 Se asume que ya se cuenta con MySQL instalado, se tiene la BD creada y el usuario 'conexion' con la
-contraseña 'Wk2!rT8s@6w' y los permisos asignados.
+contraseña 'CS_TEST123' y los permisos asignados.
 
 #### Requerimientos:
 
